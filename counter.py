@@ -10,16 +10,20 @@ print("---------------------------------------------------------------\n")
 sentence=input("Enter your text to check for count of words :\n \n")
 print("\n your entered text is :\n\n\t",sentence)
 
-# Step-3: Convert your text into list using split() function
+ # this will check weather user has given any text or not vy using strip function
+if sentence.strip() == "":
+    print("You didn't enter any text.\n Please enter the text......")
+else:
+    # Step-3: Convert your text into list using split() function
 
-list=sentence.split()
+    list=sentence.split()
 
-# Step-4: find the length of the list using len() function
+    # Step-4: find the length of the list using len() function
 
-length=len(list)
+    length=len(list)
 
-# Step-5: This is the final step print the length of the list
+    # Step-5: This is the final step print the length of the list
 
-print(f"\n The total number of words in the given text is: { length}") 
+    print(f"\n The total number of words in the given text is: { length}") 
 print()
 print()
