@@ -1,4 +1,7 @@
-*** WORD COUNTER ***
+
+---
+# WORD COUNTER
+
 
 A word counter in Python is a program or function designed to count the occurrences of each word in a given text input. This tool is particularly useful for various text processing tasks, such as analyzing documents, generating statistics, or preprocessing text data for natural language processing applications.
 
